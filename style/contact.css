@@ -1,0 +1,68 @@
+body{
+    background-image: none;
+}
+
+.banniere{
+    background-image:url("../images/grain.jpg");
+    background-repeat: repeat;
+    background-size: 50%;
+    padding-bottom: 40px;
+    padding-top: 30px;
+  }
+.banniere img{
+    display: none;
+    }
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+fieldset form{
+    margin: auto;
+}
+
+legend{
+    font-family: 'Pacifico', cursive;  color: rgb(150, 78, 29);
+    font-size: x-large;
+
+}
+.formulaire label{
+    font-family: 'Pacifico', cursive; color: rgb(150, 78, 29);
+    font-size: large;
+    margin-top: 30px;
+    
+}
+
+textarea{
+    width: 900px;
+    height: 300px;
+}
+.zone-text{
+   
+    width: 600px;
+    height: 40px;
+}
+.valider{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    padding: auto;
+    font-family: 'Pacifico', cursive;
+    font-size: large;
+    border-radius:90px 90px 90px 90px ;
+    border-color: white;
+    box-shadow: 10px 5px 50px rgb(201, 128, 57) ;
+}
+.adresse{
+    padding-top: 80px;
+    text-align: center;
+}
+p{
+    font-family: 'Pacifico', cursive;
+ 
+}
